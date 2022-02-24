@@ -13,6 +13,6 @@ git clone https://github.com/Lul/TestRail-files.md5-IAC-scanner.git
 cd ./TestRail-files.md5-IAC-scanner
 python3 vulnCheck.py
  -> Input server in http:\\ or https:\\ format
- ``
+ ```
  
  The script will print out the server/file location, status code (if not 500), and any interesting keywords found.
