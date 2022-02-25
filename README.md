@@ -4,7 +4,7 @@ Improper Access Control in Gurock TestRail versions < 7.2.0.3014 resulted in sen
 Source: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40875
 
 # Summary
-This script was written to be able to quickly identify which files on a CVE-2021-40875 vulnerable TestRail server can be accessed by looking at the returned status code, and by additionally identifying any interesting keywords that might be found.
+This script was written to be able to quickly identify which files on a CVE-2021-40875 vulnerable TestRail server can be accessed by looking at the returned text, by identifying the status code is not 500, and then it identifies any interesting keywords found in the file.
 
 # Usage
 Python
