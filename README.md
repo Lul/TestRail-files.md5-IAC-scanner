@@ -6,12 +6,14 @@ Source: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40875
 # Summary
 This script was written to be able to quickly identify which files on a CVE-2021-40875 vulnerable TestRail server can be accessed by looking at the returned text, by identifying the status code is not 500, and then it identifies any interesting keywords found in the file.
 
+Keywords to look for can be modified in line 4 of scanner.py.
+
 # Usage
 Python
 ```
 git clone https://github.com/Lul/TestRail-files.md5-IAC-scanner.git
 cd ./TestRail-files.md5-IAC-scanner
-python3 vulnCheck.py
+python3 scanner.py
  -> Input server in http:\\ or https:\\ format
  ```
  
